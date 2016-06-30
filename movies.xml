@@ -1,0 +1,31 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<movies xmlns:pfx= "http://movies.com">
+	<pfx:movies="Independence Day">
+		<description>"Some Movie About Aliens"</description>
+		<showtime>7:30</showtime>
+		<showtime>9:00</showtime> 
+		<showtime>10:00</showtime>
+	</pfx:movies>
+	<pfx:movies="Harry Potter">
+		<description>"Wizards and Stuff"</description>
+		<showtime>7:45</showtime>
+		<showtime>8:45</showtime>
+		<showtime>9:30</showtime>
+	</pfx:movies>
+	<pfx:movies="Lord of The Rings">
+		<description>"Its really long to sit through"</description>
+		<showtime>6:45</showtime>
+		<showtime>8:00</showtime>
+		<showtime>9:00</showtime>
+	</pfx:movies>
+	<pfx:movies="Batman vs. Superman">
+		<description>"Affleck is the worst"</description>
+		<showtime>7:00</showtime>
+		<showtime>7:45</showtime>
+		<showtime>8:30</showtime>
+		<showtime>9:30</showtime>
+	<pfx:movies="Incredible Hulk"/>
+	<pfx:movies="Pirates of the Carribean"/>
+	</pfx:movies>
+
+

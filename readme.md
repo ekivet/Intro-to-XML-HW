@@ -146,11 +146,34 @@ Look at the following code/file and answer the questions below:
 ```
 
  1. How many elements does this xml file have?
+
+ 7 elements
+
  2. What is a namespace in this example?
+
+ android: allowBackup
+ android: icon
+ android: label
+
+
  3. Name parent and children elements.
+
+application(parent) 	
+	activity android:name activity (child/parent)
+		intent-filter(child/parent)
+			action android:name (child)
+			category android:name (child)
+	service(child)
+			
+
  4. Find and name empty elements (the ones that do not have content).
 
+ 	<action android:name="android.intent.action.MAIN" />
 
+    <category android:name="android.intent.category.LAUNCHER" />
+
+    <activity android:name=".InformationActivity" />
+    
  ## One more Exercise
 
  Imagine you are a data specialist for a movie theater. You have been asked to store the information about the movies you show in an XML file for the office manager. The file must meet particular criteria so read below for guidance on creating your data file.   
